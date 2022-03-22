@@ -1,0 +1,54 @@
+h1 { 
+    color: #111; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 120px; 
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center; 
+}
+
+#game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+   
+.letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+.filled-box {
+    border: 2px solid black;
+  }
+  
+.letter-row {
+    display: flex;
+  } 
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+}
+
+#spacebar {
+    display: flex;
+    width: 100px;
+}
+
+.key {
+    border-radius: 0px;
+}
+
+
